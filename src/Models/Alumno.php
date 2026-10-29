@@ -16,6 +16,9 @@ class Alumno{
         return $this->nombre;
     }
     public function getNombreCompleto(): string{
+        return $this->nombre . " " .  $this->apellidos;;
+    }
+    public function getApellidos(): string{
         return $this->nombre . " " .  $this->apellidos;
     }
     public function getNota(): float{

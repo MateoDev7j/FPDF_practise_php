@@ -16,7 +16,7 @@ class Alumnos{
         $alumnoRec = new Alumno("1","maria","gonzalez",18,10,2007);
         $this->alumnos = [];
         for($i = 0; $i < count($nombres); $i++)
-            $this->alumnos[$i] = new Alumno("".$i,$nombres[$i],$apellidos[$i],18,(int)rand(0,10));
+            $this->alumnos[$i] = new Alumno("".$i,$nombres[$i],$apellidos[$i],rand(18,25),(int)rand(0,10));
 
     }
     public function getAlumnos(): array{
