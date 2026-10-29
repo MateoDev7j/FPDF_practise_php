@@ -6,9 +6,12 @@
 
 <?php else: ?>
     <p>Alumnos mostradas: <?= count($alumnos) ?></p>
-        <?php foreach ($alumnos as $alumno): ?><p>
+        <?php foreach ($alumnos as $alumno): ?>
+            <p>
                 Nombre: <?= $alumno->getNombreCompleto() ?>
-                Edad: <?= $alumno->getEdad() ?></p>
+                Edad: <?= $alumno->getEdad() ?>
+            </p>
 
         <?php endforeach; ?>
+    <p><a href="?controller=pdf&action=generar" target="_blank">Generar PDF</a></p>
 <?php endif; ?>

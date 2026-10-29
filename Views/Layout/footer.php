@@ -1,6 +1,5 @@
-
-    <footer>
-        Footer Página alumno.
-    </footer>
+<footer>
+   <p></p>
+</footer>
 </body>
 </html>
