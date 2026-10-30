@@ -1,0 +1,5 @@
+body { font-family: Georgia, serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; color: #2b2118; }
+header { display: flex; align-items: center; gap: 1rem; border-bottom: 3px solid #6b3f1d; margin-bottom: 1rem; }
+h1, h2 { color: #6b3f1d; }
+a { color: #8a4b1f; }
+footer { margin-top: 2rem; border-top: 1px solid #ccc; font-size: .85rem; color: #777; }

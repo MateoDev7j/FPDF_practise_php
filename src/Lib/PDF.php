@@ -35,7 +35,7 @@ class PDF extends \FPDF
         $this->SetFont('Times', 'B', 18);
         $this->Cell(
             0, 10,
-            $this->t('IES Ejemplo Granada'),
+            $this->t('Biblioteca Municipal de Granada'),
             0, 1, 'C'
         );
 
@@ -46,7 +46,7 @@ class PDF extends \FPDF
             0, 1, 'C'
         );
 
-        $this->SetDrawColor(40, 70, 110);
+        $this->SetDrawColor(107, 63, 29);
         $this->SetLineWidth(0.6);
         $this->Line(10, 37, 200, 37);
         $this->Ln(14);

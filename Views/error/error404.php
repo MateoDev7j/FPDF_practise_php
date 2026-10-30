@@ -1,2 +1,2 @@
-<h2>Eso es muy malo!</h2>
-<p>La página web no funciona correctamente en estos momentos, vuelve en otro momento</p>
+<h2>Página no encontrada</h2>
+<p>La página que buscas no existe en la biblioteca. Vuelve al <a href="/">catálogo</a>.</p>

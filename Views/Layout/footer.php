@@ -1,5 +1,5 @@
 <footer>
-   <p></p>
+   <p>Biblioteca Municipal de Granada · Práctica FPDF</p>
 </footer>
 </body>
 </html>

@@ -5,25 +5,23 @@ declare(strict_types=1);
 namespace Controllers;
 
 use Lib\Pages;
-use Models\Alumnos;
+use Models\Libros;
 
-class InformeAlumnos
+class InformeLibros
 {
     private Pages $pages;
-    private Alumnos $alumnos;
+    private Libros $libros;
 
     public function __construct()
     {
         $this->pages = new Pages();
-        $this->alumnos = new Alumnos();
+        $this->libros = new Libros();
     }
 
     public function generarInforme(): void
     {
-        $alumnos = $this->alumnos->getAlumnos();
-
-        $this->pages->render('pdf/informeAlumnos', [
-            'alumnos' => $alumnos
+        $this->pages->render('pdf/informeLibros', [
+            'libros' => $this->libros->getLibros(),
         ]);
     }
 }
