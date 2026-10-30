@@ -26,6 +26,5 @@ class Alumno{
     }
     public function getEdad(): int{
         return $this->edad;
-        // $this-> datey - (int) date('Y');
     }
 }
